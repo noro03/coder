@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Coder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="main-form">
+        <div class="title-bar">
+          <h1>H-I</h1>
+          <p>Այս հավելվածը ստեղծվել է այն հայ անձանց համար, <br>   ում անհրաժեշտ է փոխանցել գաղտնի հաղորդագրություն։</p>
+        </div>
+        <div class="input">
+          <label for="pass" class="label-text">Գաղտնաբառ</label>
+          <br>
+          <input type="text" id="pass" placeholder="Մուտքագրեք գազտնաբառը..">
+        </div>
+        <div class="input">
+          <label for="text">Տեքստ</label>
+          <br>
+          <textarea name="text" id="text" rows="10" placeholder="Մուտքագրեք տեքստը․․"></textarea>
+        </div>
+        <div class="input">
+          <label for="encrypt-text">Գազտնագրված Տեքստ</label>
+          <br>
+          <textarea name="text" id="encrypt-text" rows="10"></textarea>
+        </div>
+        <div class="buttons">
+          <button class="btn" type="button" onclick="encrypt()">Գաղտնագրել</button>
+          <button class="btn" type="button" onclick="decrypt()">Վերծանել</button>
+        </div>  
+      </form> 
+        
+</body>
+<script src="./index.js"></script>
+</html>
